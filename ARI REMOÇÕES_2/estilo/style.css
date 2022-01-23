@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+body{
+    max-width: 1600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#image{
+    
+    width: 1150px;
+    height: 700px;
+    filter: opacity(50%);
+}
+
+#texto{
+
+    position: absolute;
+    font-size: 40px;
+    top: 300px;
+    left: 400px;
+    color:white;
+    text-align: justify;
+}
