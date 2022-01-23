@@ -1,0 +1,298 @@
+@charset "UTF-8";
+:root {
+    --background: rgb(255, 80, 92);
+}
+
+body {
+    max-width: 1600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#image {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 748px;
+    filter: opacity(50px);
+}
+
+#texto {
+    position: absolute;
+    font-size: 32px;
+    left: 400px;
+    top: 300px;
+    color: white;
+    text-align: justify
+}
+
+#texto02 {
+    position: absolute;
+    font-size: 25px;
+    left: 500px;
+    top: 400px;
+    color: red;
+}
+
+h1 {
+    color: floralwhite;
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    padding-top: 0.01px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+h3 {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 0.001rem;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+p {
+    margin: auto;
+    left: 200px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.container {
+    width: 100%;
+    padding: 0.1rem 0;
+    background-color: var(--background);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.containerbox {
+    background-color: var(--background);
+    width: 65rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+.titulo {
+    width: 50rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.box {
+    width: 17rem;
+    font-size: 0.9rem;
+}
+
+.subtitulo {
+    border: 1px solid white;
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.box>p :last-child {
+    margin-top: 1rem;
+}
+
+.estrutura {
+    width: 30px;
+    padding: 50px 40px 50px 40px;
+}
+
+.Frota>p:last-child {
+    margin-top: 2rem;
+    width: 15rem;
+    text-align: left;
+    font-size: 13px;
+}
+
+.Equipe>p:last-child {
+    margin-top: 1rem;
+    width: 15rem;
+    text-align: left;
+    font-size: 13px;
+}
+
+.containerDepoimentos {
+    background-color: #F0F0F0;
+    max-width: 1200px;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depoimentos>p, h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.depoimentos>h2 {
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.depoimentos {
+    height: 20rem;
+    color: #87808E;
+    line-height: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.imagensDepoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-gap: .5rem;
+    row-gap: 2rem;
+    width: 50rem;
+}
+
+.par {
+    text-align: center;
+}
+
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    max-width: 30rem;
+    padding: 3rem 0; 
+    
+}
+
+input, textarea {
+    width: 30rem;
+    font-size: 1rem;
+    padding: .5rem .5rem;
+    box-shadow: 1px 1px 1px 1px rgb(243, 240, 240);
+}
+
+textarea {
+    resize: none;
+    height: 5rem;
+    
+}
+button{
+    width: 22rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    color:#f8f8f8;
+    background-color: #02BB00; 
+}
+.rodape {
+    background-color: rgb(255, 80, 92);
+    width: 100%;
+    height: 220px;
+}
+.imagemrodape{
+    width: 100px;
+    padding: 0px 40px 0px 50px;
+    height:-30px;
+    margin-bottom: 6px;
+    display:inline-block; 
+}
+.h4{
+  width:360px;
+  padding-top:20px;
+  padding-left:170px;
+  padding-bottom:0px;
+  padding-right:0px;
+  height: 1px;
+  color:#FFFFFF;
+  font-size: 14px;
+}
+.paragraforodape {  
+  width:385px;
+  padding-top:35px;
+  padding-left:120px;
+  padding-bottom:0px;
+  padding-right:0px;
+  height: 1px;
+  color:#FFFFFF;
+  font-size: 14px; 
+  display:block; 
+}    
+.dirseg>p {
+    
+    color:#FFFFFF;
+    font-size: 10px;
+    line-height: 2px;
+ 
+}
+.botao{
+    position: absolute;
+    top: 2950px;
+    left: 650px;
+    width: 12rem;
+    font-size: 16px;
+    color:#f8f8f8;
+    background-color: #02BB00;
+}
+#contato{
+    position: absolute;
+    top: 2880px;
+    color:#f8f8f8;
+    left: 600px;
+    font-size: 14px;
+}
+#telefone{
+    position: absolute;
+    top: 2910px;
+    left: 600px;
+    font-size: 14px;
+}
+
+    
+ 
+
+
+   
+  
+
+    
+    
+   
+    
+    
+    
+
+   
+
+    
+    
+    
+
+
+
