@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body{
-    @media (max-width:867)
+    @media (max-width:700)
     font-family: 'Montserrat', sans-serif;
     
 }
 #image{
-    width: 1200px;
+    width: 1270px;
     height: 600px;
     filter: opacity(50%);
 }
@@ -20,11 +20,29 @@ body{
     font-size: 20px;
     color:rgb(0, 0, 0);
 }
+#whatsapp{
+    font-family: 'Monteserrat', sans-serif;
+    position:absolute;
+    width:200px;
+    height:30px;
+    border:0px solid;
+    background-color: rgba(96, 170, 62, 0.993);
+    padding:5px;
+    top: 105px;
+    left:1000px;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;  
+}
 #titulo{
     position: absolute;
     font-size: 40px;
     top: 300px;
-    left: 300px;
+    left: 350px;
     color:#FFFFFF;
     text-align: center;
 }
@@ -32,7 +50,7 @@ body{
     position: absolute;
     font-size: 40px;
     top: 450px;
-    left: 400px;
+    left: 470px;
     text-align: center;
     color: black;
 }
@@ -46,8 +64,9 @@ body{
    padding:10px;
    color:white;
    top:-50px;
-   left:100px;
+   left:120px;
    text-align:center;
+   text-decoration: none;
 }
 #orcamento{
    font-family: 'Montserrat', sans-serif;
@@ -59,12 +78,26 @@ body{
    padding:10px;
    color:white;
    top:-100px;
-   left:450px;
+   left:500px;
    display:flex;
    flex-direction:column;
    justify-content:center;
    text-align:center;
 }
+#contato{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 110px;
+    height: 25px;
+    border:0px solid;
+    background-color: red;
+    padding: 10px;
+    color:white;
+    top:-165px;
+    left: 1020px;
+    text-align: center;
+}
+
 
 
 
