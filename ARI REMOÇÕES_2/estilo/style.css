@@ -4,8 +4,7 @@
 
 body{
     @media (max-width:700)
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;  
 }
 #image{
     width: 1270px;
@@ -35,10 +34,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    text-decoration: none;  
+    text-align: center; 
 }
 #titulo{
+    font-family: 'Monteserrat', sans-serif;
     position: absolute;
     font-size: 40px;
     top: 300px;
@@ -47,10 +46,11 @@ body{
     text-align: center;
 }
 #subtitulo{
+    font-family: 'Monteserrat', sans-serif;
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
     top: 450px;
-    left: 470px;
+    left: 510px;
     text-align: center;
     color: black;
 }
@@ -66,7 +66,6 @@ body{
    top:-50px;
    left:120px;
    text-align:center;
-   text-decoration: none;
 }
 #orcamento{
    font-family: 'Montserrat', sans-serif;
@@ -98,7 +97,18 @@ body{
     text-align: center;
 }
 
+h2{
+    font-family: 'Montserrat', sans-serif;
 
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:-70px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
