@@ -28,7 +28,7 @@ body{
     background-color: rgba(96, 170, 62, 0.993);
     padding:5px;
     top: 105px;
-    left:1000px;
+    left:992px;
     color:white;
     text-align: center;
     display: flex;
@@ -96,29 +96,37 @@ body{
     left: 1020px;
     text-align: center;
 }
-
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight:900;
     margin-top: -15px;
     margin-left: 40px;
     left: 300px;
+    color:black;
 }
-
 h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight:900;
     margin-top: -90px;
-    margin-left: 40px;   
+    margin-left: 40px; 
+    color:black;  
 }
-
 p{
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    display:block;
     margin-left: 40px;
-    margin-right: -50px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-right: 700px;
     color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.imagem{
+    position: absolute;
+    display:flex;
+    left: 650px;
+    margin-top: -320px;
 }
 
 
