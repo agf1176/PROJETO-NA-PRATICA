@@ -144,6 +144,45 @@ p{
     text-align: center;
 }
 
+ #mini{
+    position:relative;
+    width:auto;
+    height:auto;
+    max-width:90px;
+    max-height:90px;
+    margin-left:50px;
+    margin-top:200px;
+ }
+
+ #minip{
+     font-family: 'Montserrat', sans-serif;
+     font-size:12px;
+     margin-left:150px;
+     margin-top:-70px;
+     text-align:justify;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+   
+ }
+ #mini02{
+     position:relative;
+     width:auto;
+     height:auto;
+     max-width:90px;
+     max-height:90px;
+     margin-left:50px;
+     margin-top:40px;
+ }
+ #minip02{
+     font-family: 'Montserrat', sans-serif;
+     font-size:12px;
+     margin-left:150px;
+     margin-top:-70px;
+
+ }
+
+
 
 
        
